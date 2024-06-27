@@ -1,0 +1,166 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "qué tal",
+                "cómo estás",
+                "saludos"
+            ],
+            "responses": [
+                "Hola!",
+                "¿Cómo estás?"
+            ]
+        },
+        {
+            "tag": "nombre",
+            "patterns": [
+                "cómo es tu nombre",
+                "cómo te llamas"
+            ],
+            "responses": [
+                "Soy tu asistente virtual Vilvaos",
+                "Me llamo Vilvaos",
+                "Mi nombre es Vilvaos "
+            ]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "te agradezco"
+            ],
+            "responses": [
+                "De nada",
+                "No hay de qué",
+                "¡A tus órdenes!"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adiós",
+                "hasta luego",
+                "nos vemos"
+            ],
+            "responses": [
+                "¡Hasta luego!",
+                "Que tengas un buen día",
+                "¡Adiós!"
+            ]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": [
+                "¿Puedes ayudarme?",
+                "Necesito ayuda",
+                "¿Cómo puedo obtener ayuda?"
+            ],
+            "responses": [
+                "Claro, estaré encantado de ayudarte. ¿En qué puedo asistirte?",
+                "Por supuesto, ¿cuál es tu pregunta?"
+            ]
+        },
+        {
+            "tag": "cliente_informacion",
+            "patterns": [
+                "Información de un cliente",
+                "Datos de cliente",
+                "¿Qué sabes sobre un cliente?"
+            ],
+            "responses": [
+                "Para obtener información sobre un cliente, accede a la sección 'Clientes' en la página principal y busca el cliente por su nombre o ID."
+            ]
+        },
+        {
+            "tag": "producto_informacion",
+            "patterns": [
+                "Información de un producto",
+                "Datos de producto",
+                "¿Qué sabes sobre un producto?"
+            ],
+            "responses": [
+                "Para obtener información sobre un producto, accede a la sección 'Productos' en la página principal y busca el producto por su nombre o ID."
+            ]
+        },
+        {
+            "tag": "proveedor_informacion",
+            "patterns": [
+                "Información de un proveedor",
+                "Datos de proveedor",
+                "¿Qué sabes sobre un proveedor?"
+            ],
+            "responses": [
+                "Para obtener información sobre un proveedor, accede a la sección 'Proveedores' en la página principal y busca el proveedor por su nombre o ID."
+            ]
+        },
+        {
+            "tag": "crear_cliente",
+            "patterns": [
+                "Agregar nuevo cliente",
+                "Crear cliente",
+                "Nuevo cliente"
+            ],
+            "responses": [
+                "Para agregar un nuevo cliente, dirígete a la sección 'Clientes' en la página principal y busca la opción para agregar un nuevo cliente."
+            ]
+        },
+        {
+            "tag": "crear_producto",
+            "patterns": [
+                "Agregar nuevo producto",
+                "Crear producto",
+                "Nuevo producto"
+            ],
+            "responses": [
+                "Para agregar un nuevo producto, dirígete a la sección 'Productos' en la página principal y busca la opción para agregar un nuevo producto."
+            ]
+        },
+        {
+            "tag": "crear_proveedor",
+            "patterns": [
+                "Agregar nuevo proveedor",
+                "Crear proveedor",
+                "Nuevo proveedor"
+            ],
+            "responses": [
+                "Para agregar un nuevo proveedor, dirígete a la sección 'Proveedores' en la página principal y busca la opción para agregar un nuevo proveedor."
+            ]
+        },
+        {
+            "tag": "eliminar_cliente",
+            "patterns": [
+                "Eliminar cliente",
+                "Quitar cliente",
+                "Borrar cliente"
+            ],
+            "responses": [
+                "Para eliminar un cliente, accede a la sección 'Clientes' en la página principal y busca la opción para eliminar un cliente por su nombre o ID."
+            ]
+        },
+        {
+            "tag": "eliminar_producto",
+            "patterns": [
+                "Eliminar producto",
+                "Quitar producto",
+                "Borrar producto"
+            ],
+            "responses": [
+                "Para eliminar un producto, accede a la sección 'Productos' en la página principal y busca la opción para eliminar un producto por su nombre o ID."
+            ]
+        },
+        {
+            "tag": "eliminar_proveedor",
+            "patterns": [
+                "Eliminar proveedor",
+                "Quitar proveedor",
+                "Borrar proveedor"
+            ],
+            "responses": [
+                "Para eliminar un proveedor, accede a la sección 'Proveedores' en la página principal y busca la opción para eliminar un proveedor por su nombre o ID."
+            ]
+        }
+    ]
+}
